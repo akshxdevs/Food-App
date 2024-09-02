@@ -1,0 +1,88 @@
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.payment-card{
+    width: 500px;
+    border-radius: 16px;
+    overflow: hidden;
+    border: 0.5px solid rgba(10, 26, 208, 0.811);
+    box-shadow: 0px 2px 200px 2px rgba(58, 9, 204, 0.762);
+    margin: 20px;
+    padding: 40px;
+}
+
+.payment-header{
+    padding: 10px 0 20px;
+}
+
+.payment-form{
+
+}
+
+.name-field{
+    padding: 7.5px;
+    color: white;
+    width: 70%;
+    border: 2px solid rgba(0, 0, 255, 0.455);
+    border-radius: 2rem;
+    margin-bottom: 10px;
+    background-color: rgba(14, 5, 5, 0.553);
+}
+
+.address-field{
+    padding: 7.5px;
+    color: white;
+    width: 70%;
+    border: 2px solid rgba(0, 0, 255, 0.455);
+    border-radius: 2rem;
+    margin-bottom: 10px;
+    background-color: rgba(14, 5, 5, 0.553);
+}
+
+.phoneno-field{
+    padding: 7.5px;
+    color: white;
+    width: 70%;
+    border: 2px solid rgba(0, 0, 255, 0.455);
+    border-radius: 2rem;
+    margin-bottom: 10px;
+    background-color: rgba(14, 5, 5, 0.553);
+}
+
+.cardno-field{
+    padding: 7.5px;
+    color: white;
+    width: 70%;
+    border: 2px solid rgba(0, 0, 255, 0.455);
+    border-radius: 2rem;
+    margin-bottom: 10px;
+    background-color: rgba(14, 5, 5, 0.553);
+}
+
+.pay-btn{
+    padding: 10px;
+    border: 0;
+    font-weight: bold;
+    width: 30%;
+    color: white;
+    border-radius: 10px;
+    background-color: rgba(0, 13, 255, 0.615);
+    cursor: pointer;
+}
+.pay-btn:hover{
+    background: rgb(0, 0, 37);
+}
+
+.card-img{
+    position: absolute;
+    top: 64%;
+    transform: translateX(45%);
+    width: 35px;
+    height: 25px;
+    margin-right: 10px;
+}

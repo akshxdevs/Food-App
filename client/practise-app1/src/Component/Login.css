@@ -1,0 +1,55 @@
+.login-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.login-card{
+    width: 345px;
+    border-radius: 16px;
+    overflow: hidden;
+    border: 0.5px solid rgba(10, 208, 53, 0.811);
+    box-shadow: 0px 2px 200px 2px rgba(9, 204, 77, 0.762);
+    margin: 20px;
+    padding: 40px;
+}
+
+.login-header{
+    padding: 10px;
+    font-size: 30px;
+}
+
+.username{
+    padding: 10px ;
+    margin-bottom: 10px;
+    border: 2px solid green;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.pwd{
+    padding: 10px ;
+    margin-bottom: 10px;
+    border: 2px solid green;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.login-button{
+    padding: 10px;
+    border: 0;
+    margin-bottom: 10px;
+    font-weight: bold;
+    width: 50%;
+    color: white;
+    border-radius: 10px;
+    background-color: rgba(0, 255, 0, 0.741);
+    cursor: pointer;
+}
+.signup-link{
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
